@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="saveLastPosition"
+        android:summary="Check this to save the last position"
+        android:title="Save Last Position" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="keepScreenOn"
+        android:summary="Keep the screen powered on while the reader is in the foreground"
+        android:title="Keep Screen On" />
+
+</PreferenceScreen>

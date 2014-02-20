@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Android Development</title>
+
+	<meta name="description" content="Tutorials about development for Android.">
+	<meta name="keywords" content="Android, Activity, Intent, ADT, Services, BroadcastReceiverL">
+	<meta name="verify-v1" content="sE7LNm8dZTyJgkDU7KR/1Hw5klYayq9ow10fOEcUHY0=">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Lars Vogel">
+
+	<script type='text/javascript'>window.mod_pagespeed_start = Number(new Date());</script><link href="http://www.vogella.com/css/A.navigation.css+search.css,Mcc.IL8_MchKwE.css.pagespeed.cf.smdkMwTleA.css" rel="stylesheet" type="text/css"/>
+	
+
+	<link rel="shortcut icon" href="http://www.vogella.com/favicon.ico">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/EclipseAndJava">
+
+<!-- Google Analytics -->
+
+	<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-3967758-1']);_gaq.push(['_setDomainName','vogella.com']);_gaq.push(['_setAllowLinker',true]);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+
+
+</head>
+
+<body>
+
+<div id="headerpart">
+	<div id="topnav">
+		<ul id="home" class="topnav">
+			<li>
+				<a class="homebutton" title="Home" href="http://www.vogella.com">
+					vogella.com
+				</a>
+			</li>
+
+			<li>
+				<a title="Tutorials" href="http://www.vogella.com/tutorials.html">
+					Tutorials
+				</a>
+			</li>
+
+			<li>
+				<a title="Training" href="http://training.vogella.com/index.html">
+					Training
+				</a>
+			</li>
+
+			<li>
+				<a title="Books" href="http://www.vogella.com/books.html">
+					Books
+				</a>
+			</li>
+
+			<li>
+				<a title="Shop" href="http://vogella-shop.spreadshirt.de/">
+					Shop
+				</a>
+			</li>
+
+			<li>
+				<a title="Contact the vogella company" href="http://www.vogella.com/contact.html">
+					Contact us
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="logo">
+		<a title="vogella.com" href="http://www.vogella.com">
+			<img src="http://www.vogella.com/img/logo/xvogella_current_logo.png.pagespeed.ic.9N7z0yQcHq.png" alt="vogella.com"/>
+		</a>
+	</div> <!-- logo -->
+
+	<div id="searchfixed">
+		<form action="http://www.vogella.com/search.html" id="cse-search-box">
+			<div id="searchwrapper">
+				<input type="hidden" name="cx" value="partner-pub-3851443674951530:3991491935"/>
+				<input type="hidden" name="cof" value="FORID:10"/>
+				<input type="hidden" name="ie" value="UTF-8"/>
+				<input type="text" placeholder="Search" id="search_field" name="q" size="55"/>
+				<input type="image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAQAAACR313BAAAA5UlEQVQY03XQvyvEARjH8dcg58eAQZdy/gCbP+DERFFmm2RRN7MZiKSvRZbrLv4EBsluMElJHZtFLFfKDRY9hu/9+N7F51med5+np08fUo1ZcaRiR1FOj+bcivZcmu4268KbxKaqL+HJVMsccSdcyDd5Rk2otuxF4d145tusTw2FFA6E464kfa6EtRTOhY2eqGdCKV33hb0uc8CNsJrCsvBqNGMXfWuYSCHvQbg22U7+KNx3yplXF2p2lZz4aJZTMdQ6WPCSae3ZjxDKBjvlrDtVlljSL2kebvlTwypCSPyjnG2HCr90aE8uknwlPgAAAABJRU5ErkJggg==" id="search_button" name="sa" value="Search"/>
+			</div>
+		</form>
+	</div> <!-- searchfixed -->
+
+</div> <!-- headerpart -->
+
+
+
+	<div id="container">
+<div id="leftcol">
+
+	<div class="sidebar">
+		<h1> Android Development </h1>
+			  Tutorials about development for Android.
+
+		<br/>
+		<br/>
+		<br/>
+		Support this site:
+		<br/>
+		<br/>
+
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="10463995">
+			<input type="image" src="http://www.vogella.com/img/common/158x91xvogella-donate.png.pagespeed.ic.8vWXnZXSrJ.png" width="158" height="91" border="0" name="submit" alt="Donate via PayPal.">
+		</form>
+	</div> <!--sidebar-->
+</div> <!-- leftcolumn --><div class="article">
+
+	<div id="indexheader">
+	<img src="http://www.vogella.com/img/logo/270x100xindex_logo.png.pagespeed.ic.Un62ga_8EW.png" height="100" width="270" alt="home"/>
+	<h1> Expert Android and Eclipse development knowledge </h1>
+</div>
+
+<h2>Android Development Starter Tutorials </h2>
+Learn how to create Android applications.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidInstallation/article.html">Android development tools installation
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/Android/article.html">Android Development Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDevelopmentProblems/article.html">Solutions for common Android development problems
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDebugging/article.html">Debugging Android applications
+</a></li>
+</ul>
+<h2>Using Fragments and the ActionBar</h2>
+Using Fragments and the ActionBar in Android applications.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidFragments/article.html">Using Fragments in Android - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidActionBar/article.html">Using the Android action bar (ActionBar) - Tutorial
+</a></li>
+</ul>
+<h2>Android Basic tutorials</h2>
+Learn about Intents, how to use Android ListView and other basic Android development skills.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidIntent/article.html">Android Intents - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidLifeCycle/article.html">Android application and activity lifecycle - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidListView/article.html">Android ListView - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidLogging/article.html">Android Logging Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDialogs/article.html">Android Dialogs
+</a></li>
+</ul>
+<h2>Android file and network access and asynchronous processing</h2>
+Learn how to process files, handle network requests and to do asynchronuous processing
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidSQLite/article.html">Android SQLite database and content provider - tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidXML/article.html">Android XML Processing with the XmlPullParser - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidFileBasedPersistence/article.html">Android Persistence with preferences and files - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidNetworking/article.html">Android HTTP Access - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidBackgroundProcessing/article.html">Android Background Processing with Handlers and
+      AsyncTask and Loaders - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidJSON/article.html">JSON in Android - Tutorial
+</a></li>
+</ul>
+<h2>Android Advanced User Interface Development</h2>
+Android Advanced User Interface Development
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDragAndDrop/article.html">Android Drag and Drop Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDrawables/article.html">Android Drawables - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidStylesThemes/article.html">Android Styles and Themes - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidLiveWallpaper/article.html">Android Live Wallpaper - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidWidgets/article.html">Android (Homescreen) Widgets - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidCustomViews/article.html">Creating custom and compound Views in Android - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDifferentScreensize/article.html">Android resource selectors
+      and device independent pixels to
+      support multiple screensizes
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidAnimation/article.html">Android Animations - Tutorial
+</a></li>
+</ul>
+<h2>Android Services, BroadcastReceiver and NotificationManager</h2>
+Learn how to use Services and BroadcastReiver to process data independent of your user interface components and use the NotificationManager to inform the user..
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidServices/article.html">Android Service Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidBroadcastReceiver/article.html">Android BroadcastReceiver Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidNotifications/article.html">Android Notifications - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidDataBackup/article.html">Android Data Backup - Tutorial
+</a></li>
+</ul>
+<h2>Android testing and tools</h2>
+Android testing
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidTesting/article.html">Android application testing with the Android test framework
+    
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/Robotium/article.html">Android user interface testing with Robotium
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidTools/article.html">Android application (performance and more) analysis tools -
+      Tutorial
+</a></li>
+</ul>
+<h2>Android builds</h2>
+Android testing, building and performance analyze of existing applications.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidBuild/article.html">Building Android applications with Gradle - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidCommandLine/article.html">Using the Android Debug Bridge (adb) - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidBuildMaven/article.html">Building Android Apps with Apache Maven
+</a></li>
+</ul>
+<h2>Android Location API and Google Maps</h2>
+Learn how to access your current geo position via the Android Location API a and how to display it on Google Maps.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidLocationAPI/article.html">Android Location API  - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidGoogleMaps/article.html">Google Maps Android API v2 - Tutorial
+</a></li>
+</ul>
+<h2>Android Sensors and Touch</h2>
+Learn how to interact with the different Android sensors and camera and how to implement touch interfaces.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidCamera/article.html">Android Camera API - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidSensor/article.html">Android Sensor - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidTouch/article.html">Handling single and multi touch on Android- Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidGestures/article.html">Android Gestures - Tutorial
+</a></li>
+</ul>
+<h2>Android Library Projects</h2>
+Creating and using Android Libraries and Library projects.
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidLibraryProjects/article.html">Android Library Projects - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidUsefulLibraries/article.html">Useful Android Libraries
+</a></li>
+</ul>
+<h2>Special Android Programming Topics</h2>
+Special Android Programming Topics
+
+<ul>
+
+		<li><a href="http://www.vogella.com/articles/AndroidMedia/article.html">Handling Media with Android - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidSourceCode/article.html">Android Source Code - Notes
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidInternals/article.html">Android Internals
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidCloudToDeviceMessaging/article.html">Android Cloud to Device Messaging (C2DM) - Tutorial
+</a></li>
+
+		<li><a href="http://www.vogella.com/articles/AndroidCalendar/article.html">Android Calendar API - Tutorial
+</a></li>
+</ul>
+
+</div>  <!-- article --></div>  <!-- container -->
+
+<!-- Load jQuery -->
+<script type="text/javascript" src="http://www.vogella.com/javascript/jquery/jquery.js.pagespeed.jm.LynoS8h5RR.js"></script>
+
+<script type="text/javascript">jQuery(document).ready(function($){$(".span5").click(function(){window.location=$(this).find("a.btn").attr("href");return false;});});</script>
+
+<script type="text/javascript">jQuery(document).ready(function($){$(".span6").click(function(){window.location=$(this).find("a.btn").attr("href");return false;});});</script>
+
+<script>//<![CDATA[
+(function(){var c=window,e="",f="&",l="&b_cdr=",m="&b_cihrl=",n="&b_cii=",q="&b_cilrl=",r="&b_ncdl=",s="&b_ncii=",t="&b_ncini=",u="&b_ncl=",v="&cces=",w="&ccis=",x="&ccos=",y="&ccrl=",z="&ccul=",A="&exptid=",B="&ft=",C="&hft=",D="&htmlAt=",E="&ifr=0",F="&ifr=1",G="&nrp=",H="&r",I="&url=",J="=",K="?",L="beforeunload",M="ets=",N="load",O="load:",P="on",Q="unload:";c.pagespeed=c.pagespeed||{};var R=c.pagespeed,S=function(a,b,d,g,h,k){this.f=a;this.a=b;this.c=d;this.d=g;this.b=h;this.g=k;this.h=e};R.beaconUrl=R.h;
+S.prototype.e=function(){var a=this.f,b=c.mod_pagespeed_start,d=Number(new Date)-b,a=a+(-1==a.indexOf(K)?K:f),a=a+M+(this.a==N?O:Q),a=a+d,a=a+(H+this.a+J);c.performance?(d=c.performance.timing,b=d.navigationStart,a+=d.loadEventStart-b):a+=d;this.a==L&&c.mod_pagespeed_loaded||(a+=c.parent!=c?F:E,this.a==N&&(c.mod_pagespeed_loaded=!0,(d=c.mod_pagespeed_num_resources_prefetched)&&(a+=G+d),(d=c.mod_pagespeed_prefetch_start)&&(a+=D+(b-d))),R.panelLoader&&(b=R.panelLoader.getCsiTimings().time,a+=l+b.CRITICAL_DATA_RECEIVED+
+n+b.CRITICAL_IMAGES_INLINED+q+b.CRITICAL_IMAGES_LOW_RES_LOADED+m+b.CRITICAL_IMAGES_HIGH_RES_LOADED+r+b.NON_CACHEABLE_DATA_LOADED+u+b.NON_CRITICAL_LOADED,b=R.panelLoader.getCriticalImagesInfo(),a+=s+b.NUM_CRITICAL_IMAGES_INLINED+t+b.NUM_CRITICAL_IMAGES_NOT_INLINED),R.criticalCss&&(b=R.criticalCss,a+=w+b.total_critical_inlined_size+v+b.total_original_external_size+x+b.total_overhead_size+y+b.num_replaced_links+z+b.num_unreplaced_links),this.c!=e&&(a+=C+this.c),this.d!=e&&(a+=B+this.d),this.b!=e&&(a+=
+A+this.b),a+=I+encodeURIComponent(this.g),R.beaconUrl=a,(new Image).src=a)};R.i=function(a,b,d,g,h,k){var p=new S(a,b,d,g,h,k);c.addEventListener?c.addEventListener(b,function(){p.e()},!1):c.attachEvent(P+b,function(){p.e()})};R.addInstrumentationInit=R.i;})();
+
+pagespeed.addInstrumentationInit('/mod_pagespeed_beacon', 'load', '', '', '', 'http://www.vogella.com/android.html');
+//]]></script></body>
+</html>
